@@ -70,36 +70,91 @@ print(loc2['name'])
 # WEBSCRAPING ##########################
 ########################################
 
-var = artists_mod['name'][0:10]
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+from requests_html import HTMLSession
+import spacy
 
-main_list = []
+# FUNCTIONS #############################################
+# Function to scrape paragraphs of wikipedia page 
+def scrape_wiki_page(user_url):
+    session = HTMLSession()
+    r = session.get(user_url)
+    html = r.html
+    text = ''
+    for item in html.find('p'):
+        text = text + item.text
+    return text 
 
-for v in var: 
-    url = 'https://en.wikipedia.org/wiki/'+ v
-    r = requests.get(url)
-    html_contents = r.text
-    html_soup = BeautifulSoup(html_contents, 'html.parser')
-    div_birth = html_soup.find_all('div', class_='birthplace')
-    for d in div_birth: 
-        location = d.text
-    name = v
-    location = location.replace(',', '')
-    city = location.split()[0]
-    country = location.split()[1]
-    # Store list 
-    locations = [name, location, city, country]
-    main_list.append(locations)
+# Function to extract sentences containing "was born"
+def extract_word(text):
+    words = ['was born']
+    sentences = text.split('.')
+    for sentence in sentences:
+        if any(word in sentence for word in words):
+            yield sentence
 
-print(main_list)
 
-# convert list of lists in dataframe 
-data_transposed = zip(main_list)
-df = pd.DataFrame(data_transposed, columns=["name", "location", "city", "country"])
+#  Apply function Example with 11 artists 
+wikis = []
+pages = artists_mod['name'][0:10]
+for page in pages:
+    url = 'https://en.wikipedia.org/wiki/'+ page
+    text = scrape_wiki_page(url)
+    w = {'page': page,
+    'url': url, 
+    'text': text}
+    wikis.append(w)
+
+# Convert list to dataframe
+wikis = pd.DataFrame(wikis)
+
+# Check if all rows contain "was born"
+pattern = "was born"
+wikis['text'].str.contains(pattern, case = False)
+
+# Create dataframe with artist name and sentence "was born"
+name_sentence = []
+row_number = -1
+
+for t in wikis['text']:
+    row_number = row_number + 1 
+    name = wikis['page'][row_number] 
+    sentence = list(extract_word(wikis['text'][row_number]))[0]
+    s = {'name': name, 
+    'sentence':sentence}
+    name_sentence.append(s)
+
+print(name_sentence)
+
+# Convert list to dataframe
+df_name_sentence = pd.DataFrame(name_sentence)
+
+
+# Extract location names from sentences
+# https://stackoverflow.com/questions/47793516/finding-city-names-in-string
+nlp = spacy.load('en_core_web_lg')
+i = -1 
+locations = []
+for ns in df_name_sentence['sentence']:
+    i = i+1
+    name = df_name_sentence['name'][i]
+    doc = nlp(df_name_sentence['sentence'][i])
+    for ent in doc.ents:
+        if ent.label_ == 'GPE':
+            o = {'name': name, 
+            'GPE': ent.text}
+            locations.append(o)
+
+# Convert locations to dataframe
+df_locations = pd.DataFrame(locations)
+print(df_locations)
 
 # Save dataframe as csv 
-df.to_csv("locations.csv")
+df_locations.to_csv("locations.csv")
 
-
+# FOR NEXT #########################################################
 # Load locations as dataframe
 locations_df = pd.read_csv("locations.csv")
 glimpse(locations_df)
