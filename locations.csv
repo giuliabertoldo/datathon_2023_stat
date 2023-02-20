@@ -1,0 +1,617 @@
+,name,location,city,country
+0,vincent_van_gogh,Zundert Netherlands,Zundert,Netherlands
+1,pierre_auguste_renoir,Zundert Netherlands,Zundert,Netherlands
+2,claude_oscar_monet,Zundert Netherlands,Zundert,Netherlands
+3,fernando_botero,Zundert Netherlands,Zundert,Netherlands
+4,jean_léon_gérôme,Zundert Netherlands,Zundert,Netherlands
+5,paul_cezanne,Zundert Netherlands,Zundert,Netherlands
+6,rembrandt_van_rijn,Zundert Netherlands,Zundert,Netherlands
+7,john_singer_sargent,Zundert Netherlands,Zundert,Netherlands
+8,gustav_klimt,Baumgarten Austrian Empire,Baumgarten,Austrian
+9,joseph_mallord_william_turner,Baumgarten Austrian Empire,Baumgarten,Austrian
+10,raphael,Urbino Duchy of Urbino,Urbino,Duchy
+11,michelangelo_buonarroti,Urbino Duchy of Urbino,Urbino,Duchy
+12,francisco_de_goya_y_lucientes,Urbino Duchy of Urbino,Urbino,Duchy
+13,winslow_homer,Urbino Duchy of Urbino,Urbino,Duchy
+14,eugene_delacroix,Urbino Duchy of Urbino,Urbino,Duchy
+15,henri_de_toulouse_lautrec,Urbino Duchy of Urbino,Urbino,Duchy
+16,peter_paul_rubens,Urbino Duchy of Urbino,Urbino,Duchy
+17,camille_pissarro,Urbino Duchy of Urbino,Urbino,Duchy
+18,paul_gauguin,Urbino Duchy of Urbino,Urbino,Duchy
+19,edouard_manet,Paris Kingdom of France,Paris,Kingdom
+20,canaletto,Venice Venetian Republic,Venice,Venetian
+21,john_constable,East Bergholt Suffolk England,East,Bergholt
+22,tiziano_vecellio,East Bergholt Suffolk England,East,Bergholt
+23,edgar_degas,East Bergholt Suffolk England,East,Bergholt
+24,alfred_sisley,East Bergholt Suffolk England,East,Bergholt
+25,albrecht_durer,East Bergholt Suffolk England,East,Bergholt
+26,albert_bierstadt,East Bergholt Suffolk England,East,Bergholt
+27,egon_schiele,Tulln an der Donau Austro-Hungarian Empire,Tulln,an
+28,jacques_louis_david,Tulln an der Donau Austro-Hungarian Empire,Tulln,an
+29,mary_cassatt,Tulln an der Donau Austro-Hungarian Empire,Tulln,an
+30,giotto_di_bondone,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+31,berthe_morisot,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+32,odilon_redon,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+33,martin_johnson_heade,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+34,jean_baptiste_camille_corot,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+35,thomas_moran,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+36,frederic_edwin_church,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+37,gustave_caillebotte,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+38,franz_marc,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+39,george_inness,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+40,joaquin_sorolla_y_bastida,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+41,sandro_botticelli,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+42,giovanni_bellini,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+43,annibale_carracci,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+44,gustave_courbet,near Florence Republic of Florence (present-day Italian Republic),near,Florence
+45,caravaggio,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+46,"bartlett,_william_henry",Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+47,eugène_boudin,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+48,arthur_rackham,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+49,robert_henri,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+50,frederic_remington,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+51,theodore_gericault,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+52,william_merritt_chase,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+53,john_frederick_herring_snr,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+54,william_blake,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+55,pieter_the_elder_bruegel,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+56,jean_baptiste_simeon_chardin,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+57,jean_honore_fragonard,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+58,ivan_konstantinovich_aivazovsky,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+59,childe_hassam,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+60,lord_frederick_leighton,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+61,george_wesley_bellows,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+62,david_the_younger_teniers,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+63,thomas_gainsborough,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+64,caspar_david_friedrich,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+65,james_jacques_joseph_tissot,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+66,jean_francois_millet,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+67,jacopo_tintoretto,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+68,george_stubbs,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+69,edouard___vuillard,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+70,jean_antoine_watteau,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+71,paul_signac,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+72,william_hogarth,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+73,armand_guillaumin,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+74,arnold_böcklin,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+75,nicolas_poussin,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+76,paul_sandby,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+77,august_macke,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+78,oene_romkes_de_jongh,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+79,charles_robert_leslie,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+80,jan_vermeer_van_delft,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+81,hieronymus_bosch,Milan Duchy of Milan Spanish Empire[1],Milan,Duchy
+82,joan_eardley,Warnham West Sussex England.,Warnham,West
+83,pietro_antonio_rotari,Warnham West Sussex England.,Warnham,West
+84,john_linnell,Warnham West Sussex England.,Warnham,West
+85,claudio_coello,Warnham West Sussex England.,Warnham,West
+86,marianne_preindelsberger_stokes,Warnham West Sussex England.,Warnham,West
+87,frederick_judd_waugh,Warnham West Sussex England.,Warnham,West
+88,jan_van_eyck,Warnham West Sussex England.,Warnham,West
+89,rosa_bonheur,Warnham West Sussex England.,Warnham,West
+90,wilhelm_kuhnert,Warnham West Sussex England.,Warnham,West
+91,sir_joseph_noel_paton,Warnham West Sussex England.,Warnham,West
+92,raja_ravi_varma,Warnham West Sussex England.,Warnham,West
+93,william_adolphe_bouguereau,Warnham West Sussex England.,Warnham,West
+94,william_etty,Warnham West Sussex England.,Warnham,West
+95,charles_christian_nahl,Warnham West Sussex England.,Warnham,West
+96,carl_larsson,Warnham West Sussex England.,Warnham,West
+97,sir_henry_raeburn,Warnham West Sussex England.,Warnham,West
+98,eustache_le_sueur,Warnham West Sussex England.,Warnham,West
+99,robert_frederick_blum,Warnham West Sussex England.,Warnham,West
+100,theodor_van_thulden,Warnham West Sussex England.,Warnham,West
+101,georg_balthasar_probst,Warnham West Sussex England.,Warnham,West
+102,ernst_ludwig_kirchner,Warnham West Sussex England.,Warnham,West
+103,frans_mortelmans,Warnham West Sussex England.,Warnham,West
+104,joseph_farquharson,Warnham West Sussex England.,Warnham,West
+105,william_henry_hunt,Warnham West Sussex England.,Warnham,West
+106,louis_de_caullery,Warnham West Sussex England.,Warnham,West
+107,philippe_de_champaigne,Warnham West Sussex England.,Warnham,West
+108,john_william_godward,Warnham West Sussex England.,Warnham,West
+109,harmenszoon_van_rijn_rembrandt,Warnham West Sussex England.,Warnham,West
+110,timoleon_marie_lobrichon,Warnham West Sussex England.,Warnham,West
+111,istvan_csok,Warnham West Sussex England.,Warnham,West
+112,"dyck,_sir_anthony_van",Warnham West Sussex England.,Warnham,West
+113,louis_anquetin,Warnham West Sussex England.,Warnham,West
+114,sir_david_wilkie,Warnham West Sussex England.,Warnham,West
+115,alexandre_evariste_fragonard,Warnham West Sussex England.,Warnham,West
+116,auguste_joseph_marie_de_mersseman,Warnham West Sussex England.,Warnham,West
+117,peter_monamy,Warnham West Sussex England.,Warnham,West
+118,axel_birkhammer,Warnham West Sussex England.,Warnham,West
+119,charles_francois_daubigny,Warnham West Sussex England.,Warnham,West
+120,giovanni_antonio_canal_canaletto,Warnham West Sussex England.,Warnham,West
+121,arthur_w._perry,Warnham West Sussex England.,Warnham,West
+122,gilbert_gaul,Warnham West Sussex England.,Warnham,West
+123,gaston_de_la_touche,Warnham West Sussex England.,Warnham,West
+124,john_tenniel,Warnham West Sussex England.,Warnham,West
+125,thomas_ralph_spence,Warnham West Sussex England.,Warnham,West
+126,albert_edelfelt,Warnham West Sussex England.,Warnham,West
+127,joseph_nash,Warnham West Sussex England.,Warnham,West
+128,tivadar_kosztka_csontváry,Warnham West Sussex England.,Warnham,West
+129,collier_twentyman_smithers,Warnham West Sussex England.,Warnham,West
+130,grant_wood,Warnham West Sussex England.,Warnham,West
+131,gabriel_joseph_marie_augustin_ferrier,Warnham West Sussex England.,Warnham,West
+132,edvard_munch,Ådalsbruk Løten Sweden–Norway,Ådalsbruk,Løten
+133,federico_de_madrazo_y_kuntz,Ådalsbruk Løten Sweden–Norway,Ådalsbruk,Løten
+134,salvador_dali,Figueres Catalonia Spain,Figueres,Catalonia
+135,ulpiano_checa_y_sanz,Figueres Catalonia Spain,Figueres,Catalonia
+136,alfred_morgan,Figueres Catalonia Spain,Figueres,Catalonia
+137,william_holbrook_beard,Figueres Catalonia Spain,Figueres,Catalonia
+138,walter_withers,Figueres Catalonia Spain,Figueres,Catalonia
+139,tamara_de_lempicka,Warsaw Poland[a],Warsaw,Poland[a]
+140,sir_joshua_reynolds,Warsaw Poland[a],Warsaw,Poland[a]
+141,girolamo_francesco_maria_mazzola_parmigianino,Warsaw Poland[a],Warsaw,Poland[a]
+142,victor_honore_janssens,Warsaw Poland[a],Warsaw,Poland[a]
+143,platt_powell_ryder,Warsaw Poland[a],Warsaw,Poland[a]
+144,heinz_pinggera,Warsaw Poland[a],Warsaw,Poland[a]
+145,harry_hamilton_johnston,Warsaw Poland[a],Warsaw,Poland[a]
+146,alphonse_maria_mucha,Warsaw Poland[a],Warsaw,Poland[a]
+147,henriette_ronner_knip,Warsaw Poland[a],Warsaw,Poland[a]
+148,marsden_hartley,Lewiston Maine U.S.,Lewiston,Maine
+149,anton_raphael_mengs,Lewiston Maine U.S.,Lewiston,Maine
+150,angelica_kauffmann,Lewiston Maine U.S.,Lewiston,Maine
+151,guido_reni,Lewiston Maine U.S.,Lewiston,Maine
+152,edouard_jean_edouard_vuillard,Lewiston Maine U.S.,Lewiston,Maine
+153,cassius_marcellus_coolidge,Lewiston Maine U.S.,Lewiston,Maine
+154,sir_lawrence_alma_tadema,Lewiston Maine U.S.,Lewiston,Maine
+155,bartolome_esteban_murillo,Lewiston Maine U.S.,Lewiston,Maine
+156,leonardo_da_vinci,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+157,paolo_veronese_caliari,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+158,charles_henri_leickert,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+159,giuseppe_pellizza_da_volpedo,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+160,j._haier,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+161,georges_lacombe,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+162,jacopo_tintoretto_robusti,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+163,victor_tortez,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+164,horatio_henry_couldery,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+165,lorenzo_lippi,(Anchiano?)[a] Vinci Republic of Florence,(Anchiano?)[a],Vinci
+166,frida_kahlo,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+167,blanche_odin,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+168,paul_gustave_fischer,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+169,albert_lambron_des_pilitieres,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+170,arthur_heyer,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+171,arthur_von_ferraris,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+172,melchior_de_hondecoeter,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+173,allan_ramsay,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+174,william_turner_of_oxford_turner,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+175,auguste_rodin,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+176,english_provincial_school,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+177,ferdinand_ii_piloty,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+178,camille_nicolas_lambert,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+179,jean_victor_schnetz,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+180,correggio_antonio_allegri,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+181,franz_xavier_winterhalter,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+182,victor_mahu,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+183,louis_maurice_boutet_de_monvel,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+184,peter_maverick,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+185,charles_joseph_frederick_soulacroix,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+186,charles_antoine_coypel,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+187,heywood_hardy,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+188,jean_baptiste_olive,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+189,charles_hermans,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+190,jonas_lie,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+191,"millais,_sir_john_everett",Coyoacán Mexico City Mexico,Coyoacán,Mexico
+192,jean_baptiste_greuze,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+193,antonio_gisbert,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+194,bunsei,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+195,evelyn_pickering_de_morgan,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+196,sir_james_guthrie,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+197,ferrau_fenzoni,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+198,sir_john_everett_millais,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+199,philippe_rousseau,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+200,carel_fabritius,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+201,sir_anthony_van_dyck,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+202,wilfred_jenkins,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+203,franz_von_defregger,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+204,charles_van_den_eycken,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+205,edward_moran,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+206,h._pittard,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+207,theobald_reinhold_von_oer,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+208,dutch_school,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+209,jan_van_huysum,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+210,maximilien_luce,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+211,franz_andreas_bauer,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+212,rosa_jameson,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+213,henry_w._hansen,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+214,william_small,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+215,benjamin_ferrers,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+216,sebastiano_del_piombo_luciani,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+217,john_sell_cotman,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+218,melozzo_da_forli,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+219,edward_robert_hughes,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+220,william_ward,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+221,james_howe,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+222,franz_xaver_messerschmidt,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+223,karl_friedrich_schinkel,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+224,jean_auguste_dominique_ingres,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+225,james_faulds,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+226,federico_andreotti,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+227,eduardo_rosales,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+228,david_the_younger_ryckaert,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+229,michel_ange_houasse,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+230,paul_klee,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+231,james_fairman,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+232,katsushika_hokusai,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+233,jean_fouquet,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+234,charles_martin_hardie,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+235,luca_postiglione,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+236,catherine_m._wood,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+237,robert_gemmell_hutchison,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+238,frederick_goodall,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+239,norman_garstin,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+240,james_abbott_mcneill_whistler,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+241,john_james_audubon,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+242,bernardo_bellotto_canaletto,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+243,theofilos_hadjimichail,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+244,george_henry_boughton,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+245,john_frederick_kensett,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+246,giovanni_paolo_panini,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+247,john_arthur_lomax,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+248,john_william_haynes,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+249,giuliano_bugiardini,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+250,louis_janmot,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+251,george_de_forest_brush,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+252,walter_boodle,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+253,jean_francois_arrigoni_neri,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+254,emil_pap,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+255,david_oyens,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+256,rodrigo_de_villandrando,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+257,ambrose_dudley,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+258,euphemie_muraton,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+259,iulii_iul'evich_julius_klever,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+260,hans_memling,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+261,edgar_melville_ward,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+262,russian_unknown_master,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+263,henri_jules_jean_geoffroy_geo,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+264,sophie_gengembre_anderson,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+265,frank_gresley,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+266,sir_godfrey_kneller,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+267,frank_gascoigne_heath,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+268,alfred_dedreux,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+269,giacinto_gigante,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+270,agost_benkhard,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+271,karl_witkowski,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+272,victor_gabriel_gilbert,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+273,george_a._boyle,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+274,robert_jobling,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+275,alfred_glendening,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+276,rene_avigdor,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+277,arthur_wellington_fowles,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+278,cornelis_lieste,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+279,max_liebermann,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+280,jose_llaneces,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+281,daniel_sherrin,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+282,english_school,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+283,pieter_ii_peetersz,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+284,jan_hillebrand_wijsmuller,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+285,edward_percy_moran,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+286,william_james_muller,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+287,jacek_malczewski,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+288,pieter_casteels,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+289,joshua_cristall,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+290,elisabeth_vigee_lebrun,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+291,thure_de_thulstrup,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+292,august_theodor_schoefft,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+293,edouard_travies,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+294,edward_armitage,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+295,george_cattermole,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+296,edouard_bisson,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+297,john_gabriel_stedman,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+298,"willem_van_de,_the_younger_velde",Coyoacán Mexico City Mexico,Coyoacán,Mexico
+299,george_turner,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+300,edward_wilkins_waite,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+301,paul_delaroche,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+302,francois_clouet,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+303,tompkins_harrison_matteson,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+304,john_william_waterhouse,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+305,zdzislaw_piotr_jasinski,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+306,"pugin,_augustus_charles",Coyoacán Mexico City Mexico,Coyoacán,Mexico
+307,giovanni_antonio_canal_canaletto,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+308,willem_claesz._heda,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+309,ignace_henri_jean_fantin_latour,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+310,"didier_barra_monsu,_desiderio",Coyoacán Mexico City Mexico,Coyoacán,Mexico
+311,leon_francois_comerre,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+312,luca_carlevaris,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+313,pietro_benvenuti,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+314,gherardo_di_jacopo_starnina,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+315,tiziano_vecellio_titian,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+316,william_hoare,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+317,georges_seurat,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+318,charles_rennie_mackintosh,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+319,francois_boucher,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+320,william_michael_harnett,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+321,sir_edward_coley_burne_jones,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+322,artemisia_gentileschi,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+323,umberto_boccioni,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+324,martin_van_maele,Coyoacán Mexico City Mexico,Coyoacán,Mexico
+325,eugene_de_blaas,Albano Italy,Albano,Italy
+326,french_school,Albano Italy,Albano,Italy
+327,jacob_jordaens,Albano Italy,Albano,Italy
+328,anders_zorn,Albano Italy,Albano,Italy
+329,georges_antoine_rochegrosse,Albano Italy,Albano,Italy
+330,sarah_stone,Albano Italy,Albano,Italy
+331,hans_zatzka,Albano Italy,Albano,Italy
+332,sevillian_school,Albano Italy,Albano,Italy
+333,jan_sanders_van_hemessen,Albano Italy,Albano,Italy
+334,benjamin_williams_leader,Albano Italy,Albano,Italy
+335,john_william_whiteley,Albano Italy,Albano,Italy
+336,henry_gillard_glindoni,Albano Italy,Albano,Italy
+337,ladislas_wladislaw_von_czachorski,Albano Italy,Albano,Italy
+338,pierre_jacques_volaire,Albano Italy,Albano,Italy
+339,eastman_johnson,Albano Italy,Albano,Italy
+340,william_sidney_mount,Albano Italy,Albano,Italy
+341,françois_boucher,Albano Italy,Albano,Italy
+342,jacques_delanoy,Albano Italy,Albano,Italy
+343,john_o'connor,Albano Italy,Albano,Italy
+344,dr._h.a._oldfield,Albano Italy,Albano,Italy
+345,otto_greiner,Albano Italy,Albano,Italy
+346,emile_signol,Albano Italy,Albano,Italy
+347,timoteo_viti,Albano Italy,Albano,Italy
+348,emil_nolde,Albano Italy,Albano,Italy
+349,alexis_simon_belle,Albano Italy,Albano,Italy
+350,jean_joseph_weerts,Albano Italy,Albano,Italy
+351,sebastiano_lazzari,Albano Italy,Albano,Italy
+352,leon_frederic,Albano Italy,Albano,Italy
+353,edward_matthew_hale,Albano Italy,Albano,Italy
+354,leopold_van_stoll,Albano Italy,Albano,Italy
+355,jan_steen,Albano Italy,Albano,Italy
+356,sir_peter_lely,Soest Westphalia,Soest,Westphalia
+357,aubrey_vincent_beardsley,Soest Westphalia,Soest,Westphalia
+358,benjamin_west,Soest Westphalia,Soest,Westphalia
+359,giuseppe_arcimboldo,Soest Westphalia,Soest,Westphalia
+360,carl_vilhelm_holsoe,Soest Westphalia,Soest,Westphalia
+361,carlo_dolci,Soest Westphalia,Soest,Westphalia
+362,henri_matisse,Soest Westphalia,Soest,Westphalia
+363,elihu_vedder,Soest Westphalia,Soest,Westphalia
+364,sir_francis_grant,Soest Westphalia,Soest,Westphalia
+365,thomas_girtin,Soest Westphalia,Soest,Westphalia
+366,willem_van_mieris_leiden,Soest Westphalia,Soest,Westphalia
+367,george_elgar_hicks,Soest Westphalia,Soest,Westphalia
+368,ambrosius_benson,Soest Westphalia,Soest,Westphalia
+369,john_adam_p._houston,Soest Westphalia,Soest,Westphalia
+370,albert_anker,Soest Westphalia,Soest,Westphalia
+371,jean_francois_colson,Soest Westphalia,Soest,Westphalia
+372,nathan_theodore_fielding,Soest Westphalia,Soest,Westphalia
+373,asher_brown_durand,Soest Westphalia,Soest,Westphalia
+374,victor_hugo,Soest Westphalia,Soest,Westphalia
+375,pieter_the_younger_brueghel,Soest Westphalia,Soest,Westphalia
+376,henri_gascard,Soest Westphalia,Soest,Westphalia
+377,marquise_de_brehan,Soest Westphalia,Soest,Westphalia
+378,leon_jean_basile_perrault,Soest Westphalia,Soest,Westphalia
+379,russian_school,Soest Westphalia,Soest,Westphalia
+380,pierre_garnier,Soest Westphalia,Soest,Westphalia
+381,edward_robert_hughes_r.w.s.,Soest Westphalia,Soest,Westphalia
+382,felicien_rops,Soest Westphalia,Soest,Westphalia
+383,jan_van_der_joannes_stradanus_straet,Soest Westphalia,Soest,Westphalia
+384,vittorio_reggianini,Soest Westphalia,Soest,Westphalia
+385,federico_zuccaro,Soest Westphalia,Soest,Westphalia
+386,edouard_frédéric_wilhelm_richter,Soest Westphalia,Soest,Westphalia
+387,genaro_perez_villamil,Soest Westphalia,Soest,Westphalia
+388,alexis_de_leeuw,Soest Westphalia,Soest,Westphalia
+389,sebastian_vrancx,Soest Westphalia,Soest,Westphalia
+390,henry_alexander_bowler,Soest Westphalia,Soest,Westphalia
+391,pieter_schoubroeck,Soest Westphalia,Soest,Westphalia
+392,antonis_mor,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+393,franz_von_stuck,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+394,louis_léopold_boilly,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+395,hans_dahl,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+396,saturnino_herran,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+397,leon_charles_huber,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+398,bernard_picart,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+399,christen_brun,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+400,mihaly_munkacsy,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+401,frederick_henry_townsend,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+402,giovanni_francesco_guercino_barbieri,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+403,edward_lear,Utrecht Bishopric of Utrecht,Utrecht,Bishopric
+404,henri_lebasque,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+405,herri_met_de_bles,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+406,pompeo_mariani,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+407,sir_joshua_reynolds,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+408,daniel_ridgway_knight,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+409,philip_alexius_de_laszlo,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+410,joseph_austin_benwell,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+411,carlo_maratta_or_maratti,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+412,wassily_kandinsky,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+413,el_greco_domenikos_theotokopoulos,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+414,charles_le_brun,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+415,italian_school,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+416,pompeo_gerolamo_batoni,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+417,vincent_g._stiepevich,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+418,alexander_ivanov,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+419,lorenzo_costa,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+420,samuel_page,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+421,william_shakespeare_burton,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+422,abraham_janssens_van_nuyssen,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+423,joseph_munsch,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+424,konstantin_egorovich_egorovich_makovsky,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+425,john_byam_liston_shaw,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+426,nathaniel_currier,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+427,ivan_fedorovich_choultse,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+428,janos_janko,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+429,sir_edwin_henry_landseer,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+430,samuel_palmer,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+431,p._joos_van_gent_and_berruguete,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+432,luca_cambiaso,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+433,henri_edmond_cross,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+434,isaak_ilyich_levitan,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+435,william_clarke_wontner,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+436,pieter_de_hooch,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+437,hubert_&_jan_van_eyck,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+438,francesco_vinea,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+439,carl_gutherz,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+440,pierre_mignard,Champigné Maine-et-Loire France,Champigné,Maine-et-Loire
+441,guercino,Cento Duchy of Ferrara,Cento,Duchy
+442,louis_vivin,Cento Duchy of Ferrara,Cento,Duchy
+443,jose_alsina,Cento Duchy of Ferrara,Cento,Duchy
+444,george_moore_henton,Cento Duchy of Ferrara,Cento,Duchy
+445,edwaert_collier,Cento Duchy of Ferrara,Cento,Duchy
+446,lucas_gassel,Cento Duchy of Ferrara,Cento,Duchy
+447,francis_coates_jones,Cento Duchy of Ferrara,Cento,Duchy
+448,jusepe_de_ribera,Cento Duchy of Ferrara,Cento,Duchy
+449,max_slevogt,Cento Duchy of Ferrara,Cento,Duchy
+450,tiziano_vecellio_titian,Cento Duchy of Ferrara,Cento,Duchy
+451,francis_danby,Cento Duchy of Ferrara,Cento,Duchy
+452,giovanni_battista_tiepolo,Cento Duchy of Ferrara,Cento,Duchy
+453,daniel_maclise,Cento Duchy of Ferrara,Cento,Duchy
+454,"kneller,_sir_godfrey",Cento Duchy of Ferrara,Cento,Duchy
+455,catherine_weekes,Cento Duchy of Ferrara,Cento,Duchy
+456,edouard_benedictus,Cento Duchy of Ferrara,Cento,Duchy
+457,michelangelo_merisi_da_caravaggio,Cento Duchy of Ferrara,Cento,Duchy
+458,antonio_molinari,Cento Duchy of Ferrara,Cento,Duchy
+459,louis_de_caullery,Cento Duchy of Ferrara,Cento,Duchy
+460,otto_didrik_ottesen,Cento Duchy of Ferrara,Cento,Duchy
+461,charles_cooper_henderson,Cento Duchy of Ferrara,Cento,Duchy
+462,leon_herbo,Cento Duchy of Ferrara,Cento,Duchy
+463,"huysmans,_jacob",Cento Duchy of Ferrara,Cento,Duchy
+464,emile_eisman_semenovsky,Cento Duchy of Ferrara,Cento,Duchy
+465,auguste_forbin,Cento Duchy of Ferrara,Cento,Duchy
+466,utagawa_kunisada,Cento Duchy of Ferrara,Cento,Duchy
+467,horace_vernet,Cento Duchy of Ferrara,Cento,Duchy
+468,fritz_thaulow,Cento Duchy of Ferrara,Cento,Duchy
+469,james_sant,Cento Duchy of Ferrara,Cento,Duchy
+470,archibald_thorburn,Cento Duchy of Ferrara,Cento,Duchy
+471,noel_halle,Cento Duchy of Ferrara,Cento,Duchy
+472,giovanni_battista_baciccio_gaulli,Cento Duchy of Ferrara,Cento,Duchy
+473,giovanni_battista_piranesi,Cento Duchy of Ferrara,Cento,Duchy
+474,margaretha_roosenboom,Cento Duchy of Ferrara,Cento,Duchy
+475,glyn_warren_philpot,Cento Duchy of Ferrara,Cento,Duchy
+476,salvador_dali_inspired_by,Cento Duchy of Ferrara,Cento,Duchy
+477,aby_altson,Cento Duchy of Ferrara,Cento,Duchy
+478,"george_dunlop,_r.a.,_leslie",Cento Duchy of Ferrara,Cento,Duchy
+479,peder_monsted,Cento Duchy of Ferrara,Cento,Duchy
+480,andrea_solario,Cento Duchy of Ferrara,Cento,Duchy
+481,cosimo_piero_di,Cento Duchy of Ferrara,Cento,Duchy
+482,"hoefnagel,_joris",Cento Duchy of Ferrara,Cento,Duchy
+483,johannes_becx,Cento Duchy of Ferrara,Cento,Duchy
+484,eugene_henri_cauchois,Cento Duchy of Ferrara,Cento,Duchy
+485,johann_andreas_graff,Cento Duchy of Ferrara,Cento,Duchy
+486,myles_birket_foster,Cento Duchy of Ferrara,Cento,Duchy
+487,philipp_otto_runge,Cento Duchy of Ferrara,Cento,Duchy
+488,klavdiy_vasilievich_lebedev,Cento Duchy of Ferrara,Cento,Duchy
+489,leon_augustin_lhermitte,Cento Duchy of Ferrara,Cento,Duchy
+490,john_anster_fitzgerald,Cento Duchy of Ferrara,Cento,Duchy
+491,william_stephen_coleman,Cento Duchy of Ferrara,Cento,Duchy
+492,continental_school,Cento Duchy of Ferrara,Cento,Duchy
+493,william_hodges,Cento Duchy of Ferrara,Cento,Duchy
+494,james_barry,Cento Duchy of Ferrara,Cento,Duchy
+495,sandro_botticelli_alessandro_filipepi,Cento Duchy of Ferrara,Cento,Duchy
+496,elizabeth_stanhope_forbes,Cento Duchy of Ferrara,Cento,Duchy
+497,jan_van_kessel,Cento Duchy of Ferrara,Cento,Duchy
+498,juan_luna_y_novicio,Cento Duchy of Ferrara,Cento,Duchy
+499,nicolas_lancret,Cento Duchy of Ferrara,Cento,Duchy
+500,robert_alexander_hillingford,Cento Duchy of Ferrara,Cento,Duchy
+501,"giovanni_battista_salvi,_il_sassoferrato",Cento Duchy of Ferrara,Cento,Duchy
+502,giuseppe_de_nittis,Cento Duchy of Ferrara,Cento,Duchy
+503,adolf_lins,Cento Duchy of Ferrara,Cento,Duchy
+504,george_william_joy,Cento Duchy of Ferrara,Cento,Duchy
+505,giovanni_battista_pittoni_the_younger,Cento Duchy of Ferrara,Cento,Duchy
+506,alexandre_francois_desportes,Cento Duchy of Ferrara,Cento,Duchy
+507,jacob_marrel,Cento Duchy of Ferrara,Cento,Duchy
+508,alexei_alexeivich_harlamoff,Cento Duchy of Ferrara,Cento,Duchy
+509,jules_frederic_ballavoine,Cento Duchy of Ferrara,Cento,Duchy
+510,raymond_delamarre,Cento Duchy of Ferrara,Cento,Duchy
+511,george_romney,Cento Duchy of Ferrara,Cento,Duchy
+512,emile_munier,Cento Duchy of Ferrara,Cento,Duchy
+513,alexander_pope,Cento Duchy of Ferrara,Cento,Duchy
+514,yves_tanguy,Cento Duchy of Ferrara,Cento,Duchy
+515,frederick_marianus_kruseman,Cento Duchy of Ferrara,Cento,Duchy
+516,andre_henri_dargelas,Cento Duchy of Ferrara,Cento,Duchy
+517,barbara_krafft,Cento Duchy of Ferrara,Cento,Duchy
+518,hans_olaf_heyerdahl,Cento Duchy of Ferrara,Cento,Duchy
+519,ralph_albert_blakelock,Cento Duchy of Ferrara,Cento,Duchy
+520,jean_frédéric_bazille,Cento Duchy of Ferrara,Cento,Duchy
+521,tullio_garbari,Cento Duchy of Ferrara,Cento,Duchy
+522,walter_frier,Cento Duchy of Ferrara,Cento,Duchy
+523,kazimir_severinovich_malevich,Cento Duchy of Ferrara,Cento,Duchy
+524,"landseer,_sir_edwin",Cento Duchy of Ferrara,Cento,Duchy
+525,james_holland,Cento Duchy of Ferrara,Cento,Duchy
+526,maria_sibylla_merian,Cento Duchy of Ferrara,Cento,Duchy
+527,grafton_tyler_brown,Cento Duchy of Ferrara,Cento,Duchy
+528,fritz_von_uhde,Cento Duchy of Ferrara,Cento,Duchy
+529,frederick_morgan,Cento Duchy of Ferrara,Cento,Duchy
+530,georg_emil_libert,Cento Duchy of Ferrara,Cento,Duchy
+531,jules_leroy,Cento Duchy of Ferrara,Cento,Duchy
+532,marie_francois_firmin_girard,Cento Duchy of Ferrara,Cento,Duchy
+533,nicolae_grigorescu,Cento Duchy of Ferrara,Cento,Duchy
+534,karl_kaufmann,Cento Duchy of Ferrara,Cento,Duchy
+535,robert_gibb,Cento Duchy of Ferrara,Cento,Duchy
+536,giuseppe_maria_crespi,Cento Duchy of Ferrara,Cento,Duchy
+537,utagawa_or_ando_hiroshige,Cento Duchy of Ferrara,Cento,Duchy
+538,michael_sweerts,Cento Duchy of Ferrara,Cento,Duchy
+539,diego_rivera,Cento Duchy of Ferrara,Cento,Duchy
+540,suzanne_valadon,Cento Duchy of Ferrara,Cento,Duchy
+541,"and_snyders,_f._rubens,_peter_paul",Cento Duchy of Ferrara,Cento,Duchy
+542,jan_baptiste_de_landtsheer,Cento Duchy of Ferrara,Cento,Duchy
+543,francesco_del_cossa,Cento Duchy of Ferrara,Cento,Duchy
+544,pierre_bonnard,Cento Duchy of Ferrara,Cento,Duchy
+545,ludwig_deutsch,Cento Duchy of Ferrara,Cento,Duchy
+546,james_kerr_lawson,Cento Duchy of Ferrara,Cento,Duchy
+547,teodor_axentowicz,Cento Duchy of Ferrara,Cento,Duchy
+548,charles_ball,Cento Duchy of Ferrara,Cento,Duchy
+549,jean_antoine_laurent,Cento Duchy of Ferrara,Cento,Duchy
+550,john_hoppner,Cento Duchy of Ferrara,Cento,Duchy
+551,christian_krohg,Cento Duchy of Ferrara,Cento,Duchy
+552,john_atkinson_grimshaw,Cento Duchy of Ferrara,Cento,Duchy
+553,jacopo_vignali,Cento Duchy of Ferrara,Cento,Duchy
+554,sidney_starr,Cento Duchy of Ferrara,Cento,Duchy
+555,gentile_da_fabriano,Fabriano Papal States,Fabriano,Papal
+556,mathieu_le_nain,Fabriano Papal States,Fabriano,Papal
+557,sir_edward_john_poynter,Fabriano Papal States,Fabriano,Papal
+558,giacomo_favretto,Fabriano Papal States,Fabriano,Papal
+559,ferdinand_bol,Fabriano Papal States,Fabriano,Papal
+560,lászló_paal,Fabriano Papal States,Fabriano,Papal
+561,anthonis_mor_van_dashorst,Fabriano Papal States,Fabriano,Papal
+562,studio_of_clouet,Fabriano Papal States,Fabriano,Papal
+563,willem_cornelisz._duyster,Fabriano Papal States,Fabriano,Papal
+564,joseph_rodefer_decamp,Fabriano Papal States,Fabriano,Papal
+565,andrea_del_sarto,Fabriano Papal States,Fabriano,Papal
+566,paul_de_longpre,Fabriano Papal States,Fabriano,Papal
+567,christian_f._schwerdt,Fabriano Papal States,Fabriano,Papal
+568,cornelis_de_heem,Fabriano Papal States,Fabriano,Papal
+569,richard_dadd,Fabriano Papal States,Fabriano,Papal
+570,william_carse,Fabriano Papal States,Fabriano,Papal
+571,aureliano_de_beruete_y_moret,Fabriano Papal States,Fabriano,Papal
+572,petrus_van_schendel,Terheijden Netherlands,Terheijden,Netherlands
+573,antoine_vollon,Terheijden Netherlands,Terheijden,Netherlands
+574,vincenzo_camuccini,Terheijden Netherlands,Terheijden,Netherlands
+575,david_james,Terheijden Netherlands,Terheijden,Netherlands
+576,william_clarkson_stanfield,Terheijden Netherlands,Terheijden,Netherlands
+577,gleyre_charles,Terheijden Netherlands,Terheijden,Netherlands
+578,pieter_pietersz._lastman,Terheijden Netherlands,Terheijden,Netherlands
+579,rené_princeteau,Terheijden Netherlands,Terheijden,Netherlands
+580,léon_bonnat,Terheijden Netherlands,Terheijden,Netherlands
+581,fernand_anne_piestre_cormon,Terheijden Netherlands,Terheijden,Netherlands
+582,thomas_couture,Terheijden Netherlands,Terheijden,Netherlands
+583,fra_filippo_lippi,Terheijden Netherlands,Terheijden,Netherlands
+584,simone_peterzano,Terheijden Netherlands,Terheijden,Netherlands
+585,pierre_jacques_cazes,Terheijden Netherlands,Terheijden,Netherlands
+586,noel_nicolas_coypel,Terheijden Netherlands,Terheijden,Netherlands
+587,charles_andré_van_loo,Terheijden Netherlands,Terheijden,Netherlands
+588,edward_jakob_von_steinle,Terheijden Netherlands,Terheijden,Netherlands
+589,giovanni_costa,Terheijden Netherlands,Terheijden,Netherlands
+590,hubert_francois_gravelot,Terheijden Netherlands,Terheijden,Netherlands
+591,claude_gillot,Terheijden Netherlands,Terheijden,Netherlands
+592,claude_iii_audran,Terheijden Netherlands,Terheijden,Netherlands
+593,sir_thomas_lawrence,Terheijden Netherlands,Terheijden,Netherlands
+594,"hendrick_van_and_brueghel,_j._balen",Terheijden Netherlands,Terheijden,Netherlands
+595,augustus_charles_pugin,Terheijden Netherlands,Terheijden,Netherlands
+596,andrea_del_verrocchio,Florence Republic of Florence,Florence,Republic
+597,giorgio_da_castelfranco_veneto,Florence Republic of Florence,Florence,Republic
+598,carolus_duran,Florence Republic of Florence,Florence,Republic
+599,charles_auguste_steuben,Florence Republic of Florence,Florence,Republic
+600,théodore_géricault,Florence Republic of Florence,Florence,Republic
+601,léon_cogniet,Florence Republic of Florence,Florence,Republic
+602,james_baker_pyne,Florence Republic of Florence,Florence,Republic
+603,jules_joseph_lefebvre,Florence Republic of Florence,Florence,Republic
+604,gustave_clarence_rodolphe_boulanger,Florence Republic of Florence,Florence,Republic
+605,francois_de_troy,Florence Republic of Florence,Florence,Republic
+606,gustave_moreau,Florence Republic of Florence,Florence,Republic
+607,cosme_tura,Florence Republic of Florence,Florence,Republic
+608,ercole_de'_roberti,Florence Republic of Florence,Florence,Republic
+609,antonello_da_messina_messina,Florence Republic of Florence,Florence,Republic
+610,cosimo_rosselli,Florence Republic of Florence,Florence,Republic
+611,carlo_cignani,Florence Republic of Florence,Florence,Republic
+612,utagawa_toyohiro,Florence Republic of Florence,Florence,Republic
+613,tobias_van_haecht,Florence Republic of Florence,Florence,Republic
+614,adam_van_noort,Florence Republic of Florence,Florence,Republic
+615,otto_van_veen,Florence Republic of Florence,Florence,Republic
