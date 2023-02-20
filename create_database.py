@@ -1,16 +1,15 @@
-# Note: Before running the script you need to create a neo4j database instance in your machine and make sure the parameters below are correct
-
 # Import packages
 from py2neo import Graph
 import pandas as pd
+from neo4j import GraphDatabase
 
 
 # Parameters
-YOUR_PASSWORD: str = "password"
-YOUR_PORT: int = 7687 
+YOUR_PASSWORD: str = "loaf-acronyms-rifling"
+YOUR_PORT: int = "bolt://54.161.134.53:7687"
 
 # Connect to database 
-graph = Graph(f"bolt://localhost:{YOUR_PORT}",password=YOUR_PASSWORD)
+graph = Graph(YOUR_PORT,password=YOUR_PASSWORD)
 graph.run('match (n) detach delete n') # Drops all data
 try:
     indexes = graph.run('show indexes yield name').to_data_frame()['name'] # drops all indices
@@ -18,22 +17,6 @@ try:
         graph.run(f'drop index {index}')
 except:
     pass
-
-# Specialization
-specialization = pd.read_parquet('https://kuleuven-datathon-2023.s3.eu-central-1.amazonaws.com/data/Specialization.parquet.gzip')
-
-graph.run(
-"""
-LOAD CSV WITH HEADERS FROM "https://kuleuven-datathon-2023.s3.eu-central-1.amazonaws.com/data/Specialization.csv" AS csvLine
-MERGE (s:Specialization {
-    id: toInteger(csvLine.id), 
-    name: csvLine.name,
-    description: csvLine.description
-    })
-"""
-)
-
-graph.run('CREATE INDEX specialization FOR (n:Specialization) ON (n.id)')
 
 # Specialization
 specialization = pd.read_parquet('https://kuleuven-datathon-2023.s3.eu-central-1.amazonaws.com/data/Specialization.parquet.gzip')
@@ -271,3 +254,5 @@ MATCH (s:Academy {id: toInteger(csvLine.academy_id)}), (artist:Artist {id: toInt
 MERGE (s) <-[r:EDUCATED_AT]- (artist)
 """
 )
+
+
