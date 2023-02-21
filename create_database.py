@@ -1,3 +1,5 @@
+# NOTE: You should be logged in the Neo4j Sandbox for the code to work. If you get an error login at the bottom with username = neo4j and password the password below 
+
 # Import packages
 from py2neo import Graph
 import pandas as pd
