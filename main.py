@@ -1,5 +1,5 @@
 # SOURCE: https://towardsdatascience.com/neo4j-cypher-python-7a919a372be7 
-
+from pandas import DataFrame
 from neo4j import GraphDatabase
 class Neo4jConnection:
     
@@ -74,77 +74,63 @@ conn.query(query_string, db='datathon')
 
 # Create graph projection
 query_string = '''
-CALL gds.graph.project(
-  'graph1',            
-  'Artist',             
-  'APPRENTICE_OF'               
-)
+CALL gds.graph.project.cypher(
+  'graph1',
+  'MATCH (n:Artist) RETURN id(n) AS id',
+  'MATCH (n:Artist)<-[r:APPRENTICE_OF]-(m:Artist) RETURN id(n) AS source, id(m) AS target')
 '''
 conn.query(query_string, db='datathon')
 
-# Compute Harmonic Centrality Algorithm
-# Source: https://neo4j.com/docs/graph-data-science/current/algorithms/harmonic-centrality/
+# DEGREE CENTRALITY 
 query_string = '''
-CALL gds.alpha.closeness.harmonic.stream('graph1', {})
-YIELD nodeId, centrality
-RETURN gds.util.asNode(nodeId).name AS user, centrality
-ORDER BY centrality DESC
+CALL gds.degree.write('graph1', { writeProperty: 'degree' })
+YIELD centralityDistribution, nodePropertiesWritten
+RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean AS meanScore, nodePropertiesWritten
 '''
 conn.query(query_string, db='datathon')
 
-query_string = '''
-CALL gds.alpha.closeness.harmonic.write('graph1', {})
-YIELD nodes, writeProperty
-'''
-conn.query(query_string, db='datathon')
-
-# Import data in Pandas 
-from pandas import DataFrame
-
-# Create dataframe with name and centrality score
+# Create dataframe with name and degree score
 query_string = '''
 MATCH (p:Artist)
-RETURN DISTINCT p.name, p.centrality
+RETURN DISTINCT p.name, p.degree
 '''
-df_centrality = DataFrame([dict(_) for _ in conn.query(query_string, db='datathon')])
-df_centrality.sample(10)
 
-# Top 10 most central artists
-top_ten  = df_centrality.sort_values(by=['p.centrality'], ascending=False)[0:10]
+df_degree = DataFrame([dict(_) for _ in conn.query(query_string, db='datathon')])
 
-# Most central artist
-central_artist = top_ten.iloc[0]
+df_degree_sorted = df_degree.sort_values(by=['p.degree'], ascending=False)
+# Top 10 most higher degree artists
+top_ten_degree  = df_degree_sorted[0:10]
 
-# Shortest path algorithm 
-# Source: https://neo4j.com/docs/graph-data-science/current/algorithms/dijkstra-source-target/ 
+top_twenty_degree = df_degree_sorted[0:20]
 
+top_fifty_degree = df_degree_sorted[0:50]
+
+# Export to csv 
+
+df_degree.to_csv('degree_centrality.csv')
+
+# BETWEENESS 
 query_string = '''
-MATCH (source:Artist {name: 'Paul Delaroche'})
-CALL gds.allShortestPaths.dijkstra.write('graph1', {
-    sourceNode: source,
-    writeRelationshipType: 'PATH',
-    writeNodeIds: true
-})
-YIELD relationshipsWritten
-RETURN relationshipsWritten
+CALL gds.betweenness.write('graph1', { writeProperty: 'betweenness' })
+YIELD centralityDistribution, nodePropertiesWritten
+RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean AS meanScore, nodePropertiesWritten
+
 '''
 conn.query(query_string, db='datathon')
 
-# Stream mode
+# Create dataframe with name and between score
 query_string = '''
-MATCH (source:Artist {name: 'Paul Delaroche'})
-CALL gds.allShortestPaths.dijkstra.stream('graph1', {
-    sourceNode: source
-})
-YIELD index, sourceNode, targetNode, nodeIds, path
-RETURN
-    index,
-    gds.util.asNode(sourceNode).name AS sourceNodeName,
-    gds.util.asNode(targetNode).name AS targetNodeName,
-    [nodeId IN nodeIds | gds.util.asNode(nodeId).name] AS nodeNames,
-    nodes(path) as path
-ORDER BY index
+MATCH (p:Artist)
+RETURN DISTINCT p.name, p.betweenness
 '''
-conn.query(query_string, db='datathon')
+
+df_betweenness = DataFrame([dict(_) for _ in conn.query(query_string, db='datathon')])
+
+df_betweenness_sorted = df_betweenness.sort_values(by=['p.betweenness'], ascending=False)
+
+# Top 10 most higher df_betweenness_sorted artists
+top_ten_df_betweenness_sorted  = df_betweenness_sorted[0:10]
+
+
 
 conn.close()
