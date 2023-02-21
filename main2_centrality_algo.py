@@ -72,54 +72,45 @@ LIMIT 25
 '''
 conn.query(query_string, db='datathon')
 
-# Run Betweeneess
-## Create graph projection
+# Create graph projection
 query_string = '''
 CALL gds.graph.project(
-  'Graph1',
-  'Artist',
-  '{APPRENTICE_OF}'
+  'graph1',            
+  'Artist',             
+  'APPRENTICE_OF'               
 )
 '''
 conn.query(query_string, db='datathon')
 
-
-cypher_query='''
-CALL gds.graph.project('myGraph', 'Artist', {APPRENTICE_OF})
+# Page rank 
+query_string = '''
+CALL gds.pageRank.write('graph1', {
+  writeProperty: 'pagerank'
+})
+YIELD nodePropertiesWritten, ranIterations
 '''
 conn.query(query_string, db='datathon')
 
-## Run algo
-cypher_query = ''' 
-CALL gds.betweenness.write('myGraph', { 
+# Betweenness 
+query_string = '''
+CALL gds.betweenness.write('graph1', { 
   writeProperty: 'betweenness' })
-YIELD nodeId, minimumScore, maximumScore, scoreSum, nodePropertiesWritten 
+YIELD minimumScore, maximumScore, scoreSum, nodePropertiesWritten
 '''
 conn.query(query_string, db='datathon')
 
-## Save using Pandas
-from pandas import DataFrame
+
+# Compute Harmonic Centrality Algorithm
+query_string = '''
+CALL gds.alpha.closeness.harmonic.stream('graph1', {})
+YIELD nodeId, centrality
+RETURN gds.util.asNode(nodeId).name AS user, centrality
+ORDER BY centrality DESC
+'''
+conn.query(query_string, db='datathon')
 
 query_string = '''
-MATCH (p:Artist)
-RETURN DISTINCT p.name, p.betweenness
-'''
-dtf_data = DataFrame([dict(_) for _ in conn.query(query_string, db='datathon')])
-dtf_data.sample(10)
-
-
-# Run Harmonic Centrality Algorithm
-## Create graph projection
-cypher_query='''
-CALL gds.graph.project('GraphProjection1', 'Artist', {APPRENTICE_OF})
+CALL gds.alpha.closeness.harmonic.write('graph1', {})
+YIELD nodes, writeProperty
 '''
 conn.query(query_string, db='datathon')
-
-cypher_query = ''' 
- CALL gds.alpha.closeness.harmonic.write('GraphProjection1', {})
- YIELD nodeId, centrality
- RETURN gds.util.asNode(nodeId).name AS user, centrality
- ORDER BY centrality DESC
- '''
-conn.query(query_string, db='datathon')
-
