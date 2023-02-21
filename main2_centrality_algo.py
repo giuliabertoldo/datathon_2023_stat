@@ -114,3 +114,20 @@ CALL gds.alpha.closeness.harmonic.write('graph1', {})
 YIELD nodes, writeProperty
 '''
 conn.query(query_string, db='datathon')
+
+# Import data in Pandas 
+from pandas import DataFrame
+
+# Create dataframe with name and centrality score
+query_string = '''
+MATCH (p:Artist)
+RETURN DISTINCT p.name, p.centrality
+'''
+df_centrality = DataFrame([dict(_) for _ in conn.query(query_string, db='datathon')])
+df_centrality.sample(10)
+
+# Top 10 most central artists
+df_centrality.sort_values(by=['p.centrality'], ascending=False)[0:10]
+
+# 
+conn.close()
