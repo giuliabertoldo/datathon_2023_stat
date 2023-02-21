@@ -72,15 +72,51 @@ LIMIT 25
 '''
 conn.query(query_string, db='datathon')
 
-# Create Graph Projection
+# Run Betweeneess
+## Create graph projection
 query_string = '''
-CALL gds.graph.project('Graph1', 'Artist', 'APPRENTICE_OF')
+CALL gds.graph.project(
+  'Graph1',
+  'Artist',
+  '{APPRENTICE_OF}'
+)
 '''
 conn.query(query_string, db='datathon')
 
-# Run Harmonic Centrality Algorithm 
+
+cypher_query='''
+CALL gds.graph.project('myGraph', 'Artist', {APPRENTICE_OF})
+'''
+conn.query(query_string, db='datathon')
+
+## Run algo
 cypher_query = ''' 
- CALL gds.alpha.closeness.harmonic.stream('GGG', {})
+CALL gds.betweenness.write('myGraph', { 
+  writeProperty: 'betweenness' })
+YIELD nodeId, minimumScore, maximumScore, scoreSum, nodePropertiesWritten 
+'''
+conn.query(query_string, db='datathon')
+
+## Save using Pandas
+from pandas import DataFrame
+
+query_string = '''
+MATCH (p:Artist)
+RETURN DISTINCT p.name, p.betweenness
+'''
+dtf_data = DataFrame([dict(_) for _ in conn.query(query_string, db='datathon')])
+dtf_data.sample(10)
+
+
+# Run Harmonic Centrality Algorithm
+## Create graph projection
+cypher_query='''
+CALL gds.graph.project('GraphProjection1', 'Artist', {APPRENTICE_OF})
+'''
+conn.query(query_string, db='datathon')
+
+cypher_query = ''' 
+ CALL gds.alpha.closeness.harmonic.write('GraphProjection1', {})
  YIELD nodeId, centrality
  RETURN gds.util.asNode(nodeId).name AS user, centrality
  ORDER BY centrality DESC
