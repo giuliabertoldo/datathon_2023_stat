@@ -82,25 +82,8 @@ CALL gds.graph.project(
 '''
 conn.query(query_string, db='datathon')
 
-# Page rank 
-query_string = '''
-CALL gds.pageRank.write('graph1', {
-  writeProperty: 'pagerank'
-})
-YIELD nodePropertiesWritten, ranIterations
-'''
-conn.query(query_string, db='datathon')
-
-# Betweenness 
-query_string = '''
-CALL gds.betweenness.write('graph1', { 
-  writeProperty: 'betweenness' })
-YIELD minimumScore, maximumScore, scoreSum, nodePropertiesWritten
-'''
-conn.query(query_string, db='datathon')
-
-
 # Compute Harmonic Centrality Algorithm
+# Source: https://neo4j.com/docs/graph-data-science/current/algorithms/harmonic-centrality/
 query_string = '''
 CALL gds.alpha.closeness.harmonic.stream('graph1', {})
 YIELD nodeId, centrality
@@ -127,7 +110,41 @@ df_centrality = DataFrame([dict(_) for _ in conn.query(query_string, db='datatho
 df_centrality.sample(10)
 
 # Top 10 most central artists
-df_centrality.sort_values(by=['p.centrality'], ascending=False)[0:10]
+top_ten  = df_centrality.sort_values(by=['p.centrality'], ascending=False)[0:10]
 
-# 
+# Most central artist
+central_artist = top_ten.iloc[0]
+
+# Shortest path algorithm 
+# Source: https://neo4j.com/docs/graph-data-science/current/algorithms/dijkstra-source-target/ 
+
+query_string = '''
+MATCH (source:Artist {name: 'Paul Delaroche'})
+CALL gds.allShortestPaths.dijkstra.write('graph1', {
+    sourceNode: source,
+    writeRelationshipType: 'PATH',
+    writeNodeIds: true
+})
+YIELD relationshipsWritten
+RETURN relationshipsWritten
+'''
+conn.query(query_string, db='datathon')
+
+# Stream mode
+query_string = '''
+MATCH (source:Artist {name: 'Paul Delaroche'})
+CALL gds.allShortestPaths.dijkstra.stream('graph1', {
+    sourceNode: source
+})
+YIELD index, sourceNode, targetNode, nodeIds, path
+RETURN
+    index,
+    gds.util.asNode(sourceNode).name AS sourceNodeName,
+    gds.util.asNode(targetNode).name AS targetNodeName,
+    [nodeId IN nodeIds | gds.util.asNode(nodeId).name] AS nodeNames,
+    nodes(path) as path
+ORDER BY index
+'''
+conn.query(query_string, db='datathon')
+
 conn.close()
