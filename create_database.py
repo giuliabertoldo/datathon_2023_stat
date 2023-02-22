@@ -24,7 +24,7 @@ except:
 # Artists
 graph.run(
 """
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/giuliabertoldo/datathon_2023_stat/main/artists_clean.csv" AS csvLine
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/giuliabertoldo/datathon_2023_stat/main/artists.csv" AS csvLine
 CREATE (m:Artist {
     id: toInteger(csvLine.id), 
     name: csvLine.name,
@@ -38,7 +38,7 @@ graph.run('CREATE INDEX artist FOR (n:Artist) ON (n.id)')
 
 graph.run(
 """
-LOAD CSV WITH HEADERS FROM "https://kuleuven-datathon-2023.s3.eu-central-1.amazonaws.com/data/Apprenticeship.csv" AS csvLine
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/giuliabertoldo/datathon_2023_stat/main/appr.csv" AS csvLine
 MATCH (student:Artist {id: toInteger(csvLine.student_id)}), (teacher:Artist {id: toIntegerOrNull(csvLine.teacher_id)})
 MERGE (student) -[r:APPRENTICE_OF]-> (teacher)
 """
