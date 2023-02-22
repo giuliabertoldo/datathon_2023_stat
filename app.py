@@ -9,6 +9,7 @@ artists = pd.read_csv(r'artists.csv')
 apprenticeship = pd.read_csv(r'appr.csv')
 
 
+artists = artists.sort_values(by='name')
 df = pd.DataFrame(artists)
 name1=df['name']
 
