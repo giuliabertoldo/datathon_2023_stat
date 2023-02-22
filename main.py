@@ -144,7 +144,7 @@ CALL gds.graph.project.cypher(
 conn.query(query_string, db='datathon')
 
 query_string = '''
-CALL gds.betweenness.write('graph2', { writeProperty: 'betweenness' })
+CALL gds.betweenness.write('graph1', { writeProperty: 'betweenness' })
 YIELD centralityDistribution, nodePropertiesWritten
 RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean AS meanScore, nodePropertiesWritten
 
