@@ -28,6 +28,12 @@ LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/giuliabertoldo/dat
 CREATE (m:Artist {
     id: toInteger(csvLine.id), 
     name: csvLine.name,
+    last_name: csvLine.last_name,
+    birthplace: csvLine.birthplace,
+    deathplace: csvLine.deathplace,
+    birthdate: csvLine.birthdate,
+    deathdate: csvLine.deathdate,
+    cause_of_death: csvLine.cause_of_death,
     url: csvLine.url,
     summary: csvLine.summary
     })
