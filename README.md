@@ -11,4 +11,4 @@ This repository contains code for the <a href="https://kul-datathon-jobfair.netl
 
 * <code>main.py</code>: queries to neo4j database, centrality algorithms and visualizations
 
-* <code>app.py</code>: streamlit app 
+* <code>app.py</code>: streamlit app (App available at https://giuliabertoldo-datathon-2023-stat-app-xg3fnl.streamlit.app/)
