@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 #import matplotlib.pyplot as plt
 
-artists = pd.read_csv(r'Artist.csv')
-apprenticeship = pd.read_csv(r'Apprenticeship.csv')
+artists = pd.read_csv(r'artists.csv')
+apprenticeship = pd.read_csv(r'appr.csv')
 
 
 
@@ -75,23 +75,28 @@ str(option1)
 if(st.button('Find')):
     try:
         l=[]
-        findId = artists[artists['name']==option1]['id'].index.tolist()
+        findId = [artists[artists['name']==option1]['id'].iloc[0]]
+
+        #df_temp = pd.DataFrame(artists[artists['name']==option1]['id'])
+        #findId = [df_temp['id'].iloc[0]]
+
 
     #print(findId)
         i=0
         while i < len(apprenticeship):
             if apprenticeship['teacher_id'][i]==findId[0]:
-            #print([apprenticeship['teacher_id'][i]]) 
+                # print([apprenticeship['teacher_id'][i]]) 
                 l = l + [apprenticeship['student_id'][i]]
             else:
                 pass
             i = i + 1
+            # print(l)
     
         l = [int(x) for x in l]
         final=[]
         for j in l:
             art_new=artists.to_numpy()
-            final = final + [art_new[j][1]]
+            final = final + [art_new[j][2]]
         s = ''
         if final == []:
             st.error('No students')
@@ -119,7 +124,7 @@ if(st.button('Find')):
         final2=[]
         for j in l2:
             art_new2=artists.to_numpy()
-            final2 = final2 + [art_new2[j][1]]
+            final2 = final2 + [art_new2[j][2]]
         s2 = ''
         if final2 == []:
             st.error('No teachers')
