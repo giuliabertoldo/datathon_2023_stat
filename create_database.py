@@ -22,11 +22,9 @@ except:
 
 
 # Artists
-artists = pd.read_parquet('https://kuleuven-datathon-2023.s3.eu-central-1.amazonaws.com/data/Artist.parquet.gzip')
-
 graph.run(
 """
-LOAD CSV WITH HEADERS FROM "https://kuleuven-datathon-2023.s3.eu-central-1.amazonaws.com/data/Artist.csv" AS csvLine
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/giuliabertoldo/datathon_2023_stat/main/artists_clean.csv" AS csvLine
 CREATE (m:Artist {
     id: toInteger(csvLine.id), 
     name: csvLine.name,
